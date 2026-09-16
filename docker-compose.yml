@@ -1,0 +1,9 @@
+services:
+  grocy-mcp:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      GROCY_URL: ${GROCY_URL}
+      GROCY_API_KEY: ${GROCY_API_KEY}

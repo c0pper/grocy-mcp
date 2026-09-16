@@ -28,6 +28,7 @@ Thumbs.db
 
 # Config (may contain secrets)
 config.toml
+.env
 CLAUDE.md
 AGENTS.md
 testbed/runtime/
